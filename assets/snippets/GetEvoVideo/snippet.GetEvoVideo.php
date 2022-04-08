@@ -5,4 +5,4 @@ $url = isset($url) ? $url : '';
 $vd = new Video(null, false);
 $arr = $vd->setLink($url);
 
-return $arr['video'] ? $arr['video'].'<p class="text-center"><a href="" target="_blank" savefrom_lm="0">Смотреть на хостинге</a></p>' : "";
+return $arr['video'] ? $arr['video'].'<p class="text-center"><a href="" target="_blank" savefrom_lm="0">РЎРјРѕС‚СЂРµС‚СЊ РЅР° С…РѕСЃС‚РёРЅРіРµ</a></p>' : "";
